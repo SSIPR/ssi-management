@@ -16,18 +16,20 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_files/sheet002.html">
 <link id="shLink" href="index_files/sheet003.html">
 <link id="shLink" href="index_files/sheet004.html">
+<link id="shLink" href="index_files/sheet005.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=4;
+ var c_lTabs=5;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "GanttChart";
  c_rgszSh[1] = "STATS M1";
  c_rgszSh[2] = "STATS M2";
  c_rgszSh[3] = "STATS GLOBAL";
+ c_rgszSh[4] = "SQFT POR MES";
 
 
 
@@ -319,6 +321,10 @@ function fnSetActiveSheet(iSh)
    <x:ExcelWorksheet>
     <x:Name>STATS GLOBAL</x:Name>
     <x:WorksheetSource HRef="index_files/sheet004.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>SQFT POR MES</x:Name>
+    <x:WorksheetSource HRef="index_files/sheet005.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
